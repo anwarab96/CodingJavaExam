@@ -4,30 +4,86 @@ Answer these below Questions:
 
 
 What jdk contains or composed of and define each components?
+jdk contains jvm and java API platform. jvm is java virtual machine and java API is an application programming interface
+ and also a collection of prewritten packages, classesand also their methods.
 What is IDE?
+IDE stands for Integrated Development Environment.
+
 What are the IDEs available in the market to support java?
+Eclipse and intellj.
 Explain the entire java life cycle.
+Write code in a text editor. This is the source code, ends with .java
+Load the code in to the java compiler.
+The java compiler creates the byte codes (ends with .class)
+Then this can be used by the JVM to run it. 
+Then It can be used by the computer operating system to execute. 
 what is class?
+A class is the blue print for objects which are individually created.
+
 What is object?
+Objects refer to a particular instance of a class. They could be 
+Variable and function. 
+
+
 What is the entry point of an application?
+Main method is the entry point of an application.
+
 Why main is static?
+Main method is static otherwise it would be ambuguity.
 What is the difference between an Interface and Abstract class?
+We can define only methods in the interface and we can do any other
+Functionality in an abstract class except create a new object.
+i.e in an abstract class we can not create like phone ph = new phone.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-what is Access Specifier?
+No , we need concreat class to extend from abstract and to implement
+From interface.
+what is Access Specifier? 
+access specifiers regulate access to classes , fields and methods.
 What is OOP ? Define each feature of java OOP.
+Object oriented program which are 
+Abstraction, encapsulation, inheritence and polymorphism.
+
 What is API? Name list of API that you have used so far.
+An application programming interface.	Scanner, String, BufferReader, FileReader,Random,
+IOEXCEPTION,Mathfunction  
 Does java support multiple inheritance?
+no
 What is method overloading and when it happens?
+
+overloading is creating several methods with the same name which differ from each other
+It only happens when you’re explicitly calling a method.
 What is method overriding and when it happens?
-Explain exceptions in java and how to handle it.
-What is static keyword in java? How it has been used in variables and methods ?
+Explain exceptions in java and how to handle it
+It is used for catching error to fix it.
+What is static keyword in java? How it has been used in variables and methods ? 
 What is final and how it has been used variables and methods?
+Final is keyword when it is used in java it cannot be change.
 What is final, finally and finalize?
+Final is keyword when it is used in java it cannot be change and
+in try catch method finally can be used for catching final error
+and finalize is used for when a file or data open and then to close it.
+
 What is a constructor ?
+A constructor is which creates new object from class.
 What is "this" keyword in java ?
+This keyword helps the the private variable to setup to public.
 What is JVM stand for ?
+Java virtual machine.
 What version of java are you using?
-What is JAR stand for ?
+Java 7
+What is JAR stand for ?  
+JAR stands for Java Archive.
+
 What is compile time and run time?
+ compile time refers to  the operations performed by a compile
+Compile time give you syntax error, typechecking error
+runtime may refer to the period during which a computer program is executing
 What is heap?
+The heap is the runtime data area from which memory for all
+for all class instances and arrays is allocate.
+
+
+
 How java manage it's memory?
+
