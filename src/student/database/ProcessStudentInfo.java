@@ -52,7 +52,7 @@ public class ProcessStudentInfo {
 			 @SuppressWarnings("unused")
 			XmlReader xr = new XmlReader(fr);
 		
-			 System.out.println(90);
+			 System.out.println();
 			}
 			
 
